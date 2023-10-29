@@ -1,0 +1,26 @@
+/* Estilo para la lista desordenada */
+.product-action {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  /* Estilo para cada elemento de la lista */
+  .product-action li {
+    margin-right: 10px; /* Ajusta el margen entre los elementos según sea necesario */
+  }
+  
+  /* Estilo para el enlace dentro del elemento li */
+  .product-action .add-to-cart a {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Estilo para la imagen dentro del enlace */
+  .product-action .add-to-cart img {
+    max-width: 52px; /* Define el ancho máximo de la imagen */
+    height: auto; /* Permite que la altura se ajuste automáticamente para mantener la proporción original */
+    margin-left: 5px; /* Ajusta el margen izquierdo para separar la imagen del texto */
+  }
